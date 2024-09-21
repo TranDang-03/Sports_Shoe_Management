@@ -1,0 +1,170 @@
+const sanPham = [
+  {
+    id: "0",
+    ten: "san pham 0",
+    moTa: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+    trangThai: 1,
+    anh: [
+      "/imgs/1-1/img1-1.avif",
+      "/imgs/1-1/img1-2.avif",
+      "/imgs/1-1/img1-3.avif",
+      "/imgs/1-1/img1-4.avif",
+      "/imgs/1-1/img1-5.avif",
+      "/imgs/1-1/img1-6.avif",
+      "/imgs/1-1/img1-7.avif",
+    ],
+    danhMuc: [{ id: 1, tenDanhMuc: "Đi an cuoi" }],
+    thuongHieu: [
+      { id: 1, tenThuongHieu: "Nike" },
+      { id: 2, tenThuongHieu: "Dake Nike" },
+    ],
+    mauSac: [
+      { id: 1, ten: "Đỏ đậm", giaTri: "#ff0000" },
+      { id: 2, ten: "Trắng sữa", giaTri: "#eaeeef" },
+      { id: 3, ten: "Xanh quan que", giaTri: "#025a30" },
+      { id: 4, ten: "Xám sữa", giaTri: "rgb(227, 12, 209)" },
+    ],
+  },
+  {
+    id: "1",
+    ten: "san pham 1",
+    anh: [
+      "/imgs/1-2/img2-1.avif",
+      "/imgs/1-2/img2-2.avif",
+      "/imgs/1-2/img2-3.avif",
+      "/imgs/1-2/img2-4.avif",
+      "/imgs/1-2/img2-5.avif",
+      "/imgs/1-2/img2-6.avif",
+      "/imgs/1-2/img2-7.avif",
+    ],
+    moTa: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+    trangThai: 1,
+    danhMuc: [
+      { id: 1, tenDanhMuc: "The Thao" },
+      { id: 2, tenDanhMuc: "Thoi trang" },
+      { id: 3, tenDanhMuc: "Like New" },
+    ],
+    thuongHieu: [
+      { id: 1, tenThuongHieu: "Nike" },
+      { id: 2, tenThuongHieu: "Dake Nike" },
+    ],
+    mauSac: [
+      { id: 1, ten: "Đỏ đậm", giaTri: "#ff0000" },
+      { id: 2, ten: "Trắng sữa", giaTri: "#eaeeef" },
+      { id: 3, ten: "Xanh quan que", giaTri: "#025a30" },
+      { id: 4, ten: "Xám sữa", giaTri: "rgb(227, 220, 209)" },
+    ],
+  },
+  {
+    id: "2",
+    ten: "san pham 2",
+    moTa: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+    trangThai: 1,
+    anh: [
+      "/imgs/1-3/img3-1.avif",
+      "/imgs/1-3/img3-2.avif",
+      "/imgs/1-3/img3-3.avif",
+      "/imgs/1-3/img3-4.avif",
+    ],
+    danhMuc: [
+      { id: 1, tenDanhMuc: "The Thao" },
+      { id: 2, tenDanhMuc: "Thoi trang" },
+      { id: 3, tenDanhMuc: "Like New" },
+    ],
+    thuongHieu: [
+      { id: 1, tenThuongHieu: "Nike" },
+      { id: 2, tenThuongHieu: "Dake Nike" },
+    ],
+    mauSac: [
+      { id: 1, ten: "Đỏ đậm", giaTri: "#ff0000" },
+      { id: 2, ten: "Trắng sữa", giaTri: "#eaeeef" },
+      { id: 3, ten: "Xanh quan que", giaTri: "#025a30" },
+      { id: 4, ten: "Xám sữa", giaTri: "rgb(1, 220, 3)" },
+    ],
+  },
+  {
+    id: "3",
+    ten: "san pham 3",
+    moTa: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+    trangThai: 1,
+    anh: [
+      "/imgs/1-4/img4-1.avif",
+      "/imgs/1-4/img4-2.avif",
+      "/imgs/1-4/img4-3.avif",
+      "/imgs/1-4/img4-4.avif",
+      "/imgs/1-4/img4-5.avif",
+      "/imgs/1-4/img4-6.avif",
+      "/imgs/1-4/img4-7.avif",
+    ],
+    danhMuc: [
+      { id: 1, tenDanhMuc: "The Thao" },
+      { id: 2, tenDanhMuc: "Thoi trang" },
+      { id: 3, tenDanhMuc: "Like New" },
+    ],
+    thuongHieu: [
+      { id: 1, tenThuongHieu: "Nike" },
+      { id: 2, tenThuongHieu: "Dake Nike" },
+    ],
+    mauSac: [
+      { id: 1, ten: "Đỏ đậm", giaTri: "#ff0000" },
+      { id: 2, ten: "Trắng sữa", giaTri: "#eaeeef" },
+      { id: 3, ten: "Xanh quan que", giaTri: "#025a30" },
+      { id: 4, ten: "Xám sữa", giaTri: "rgb(227, 67, 209)" },
+    ],
+  },
+  {
+    id: "4",
+    ten: "san pham 4",
+    moTa: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+    anh: [
+      "/imgs/1-5/img5-1.avif",
+      "/imgs/1-5/img5-2.avif",
+      "/imgs/1-5/img5-3.avif",
+    ],
+    trangThai: 1,
+    danhMuc: [
+      { id: 1, tenDanhMuc: "The Thao" },
+      { id: 2, tenDanhMuc: "Thoi trang" },
+      { id: 3, tenDanhMuc: "Like New" },
+    ],
+    thuongHieu: [
+      { id: 1, tenThuongHieu: "Nike" },
+      { id: 2, tenThuongHieu: "Dake Nike" },
+    ],
+    mauSac: [
+      { id: 1, ten: "Đỏ đậm", giaTri: "#ff0000" },
+      { id: 2, ten: "Trắng sữa", giaTri: "#eaeeef" },
+      { id: 3, ten: "Xanh quan que", giaTri: "#025a30" },
+      { id: 4, ten: "Xám sữa", giaTri: "rgb(255, 220, 89)" },
+    ],
+  },
+  {
+    id: "5",
+    ten: "san pham 5",
+    moTa: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+    trangThai: 1,
+    anh: [
+      "/imgs/1-6/img6-1.avif",
+      "/imgs/1-6/img6-2.avif",
+      "/imgs/1-6/img6-3.avif",
+      "/imgs/1-6/img6-4.avif",
+    ],
+    danhMuc: [
+      { id: 1, tenDanhMuc: "The Thao" },
+      { id: 2, tenDanhMuc: "Thoi trang" },
+      { id: 3, tenDanhMuc: "Like New" },
+    ],
+    thuongHieu: [
+      { id: 1, tenThuongHieu: "Nike" },
+      { id: 2, tenThuongHieu: "Dake Nike" },
+    ],
+    mauSac: [
+      { id: 1, ten: "Đỏ đậm", giaTri: "#ff0000" },
+      { id: 2, ten: "Trắng sữa", giaTri: "#eaeeef" },
+      { id: 3, ten: "Xanh quan que", giaTri: "#025a30" },
+      { id: 4, ten: "Xám sữa", giaTri: "rgb(34, 220, 67)" },
+    ],
+  },
+];
+
+export default sanPham;

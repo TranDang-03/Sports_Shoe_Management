@@ -1,0 +1,7 @@
+.table-container {
+  padding: 1rem 1rem;
+}
+.table-container > :nth-child(1) {
+  border-radius: 10px !important;
+  overflow: hidden !important;
+}

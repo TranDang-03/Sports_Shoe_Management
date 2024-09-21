@@ -1,0 +1,25 @@
+[debug] [2024-08-02T01:04:07.144Z] ----------------------------------------------------------------------
+[debug] [2024-08-02T01:04:07.150Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\PC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-08-02T01:04:07.151Z] CLI Version:   13.15.0
+[debug] [2024-08-02T01:04:07.152Z] Platform:      win32
+[debug] [2024-08-02T01:04:07.153Z] Node Version:  v18.14.0
+[debug] [2024-08-02T01:04:07.155Z] Time:          Fri Aug 02 2024 08:04:07 GMT+0700 (Indochina Time)
+[debug] [2024-08-02T01:04:07.156Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-08-02T01:04:07.343Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-02T01:04:07.344Z] > authorizing via signed-in user (danghansamu@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Sports_Product_Management-main\Font_End\Fontend_EndGame-main\Frontend\end-game
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
