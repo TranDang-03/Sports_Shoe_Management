@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const Token = "55a67c4b2f20fb67598709c539fbaec4fe59819a";
+const Token = "";
 // Tạo một instance Axios với cấu hình cụ thể cho yêu cầu API
 const instance = axios.create({
   baseURL:
